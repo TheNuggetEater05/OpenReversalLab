@@ -2,5 +2,30 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Window\Window.cpp" />
+    <ClCompile Include="Application\Application.cpp" />
+    <ClCompile Include="Renderer\Renderer.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_demo.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_draw.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_tables.cpp" />
+    <ClCompile Include="ThirdParty\Includes\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Menu\Menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window\Window.h" />
+    <ClInclude Include="Application\Application.h" />
+    <ClInclude Include="Renderer\Renderer.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imconfig.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imgui.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imgui_internal.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imstb_rectpack.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imstb_textedit.h" />
+    <ClInclude Include="ThirdParty\Includes\imgui\imstb_truetype.h" />
+    <ClInclude Include="Menu\Menu.h" />
   </ItemGroup>
 </Project>
